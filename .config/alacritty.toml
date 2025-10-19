@@ -1,26 +1,26 @@
 [colors.bright]
-black = "#353C4A"
-blue = "#81A1C1"
-cyan = "#88C0D0"
-green = "#A3BE8C"
-magenta = "#B48EAD"
-red = "#BF616A"
-white = "#E5E9F0"
-yellow = "#EBCB8B"
+black = "#2640D3"
+blue = "#EB3131"
+cyan = "#2AAAB8"        # Color6Intense
+green = "#1C948C"       # Color2Intense
+magenta = "#AA32E1"     # Color5Intense
+red = "#E73259"         # Color1Intense
+white = "#FFFFFF"       # Color7Intense
+yellow = "#A9C413"      # Color3Intense
 
 [colors.normal]
-black = "#2E3440"
-blue = "#81A1C1"
-cyan = "#88C0D0"
-green = "#A3BE8C"
-magenta = "#B48EAD"
-red = "#BF616A"
-white = "#E5E9F0"
-yellow = "#EBCB8B"
+black = "#2640D3"
+blue = "#EB3131"
+cyan = "#2AAAB8"        # Color6Intense
+green = "#1C948C"       # Color2Intense
+magenta = "#AA32E1"     # Color5Intense
+red = "#E73259"         # Color1Intense
+white = "#FFFFFF"       # Color7Intense
+yellow = "#A9C413"      # Color3Intense
 
 [colors.primary]
-background = "#2E3440"
-foreground = "#ACE3FF"
+background = "#1B1B1D"  # Background
+foreground = "#FFFFFF"  # Foreground
 
 [font]
 size = 10.5
@@ -39,11 +39,11 @@ key = "N"
 mods = "COntrol"
 
 
-[shell]
+[terminal.shell]
 program = "/bin/fish"
 
 [window]
-opacity = 0.7
+opacity = 1
 
 [window.dimensions]
 columns = 100

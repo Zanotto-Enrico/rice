@@ -11,7 +11,7 @@ configuration {
 }
 
 
-@theme "~/.config/rofi/nord.rasi"
+@theme "~/.config/rofi/nothing.rasi"
 
 listview {
 	lines: 6;

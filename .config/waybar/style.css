@@ -7,12 +7,13 @@
 }
 
 window#waybar {
-    background-color: rgba(11, 13, 18, 0.3);
-    color: #ffffff;
+    background-color: #1B1B1D;
+    color: #1B1B1D;
     transition-property: background-color;
     transition-duration: .5s;
     border-radius:0px;
     box-shadow: inset 0 -3px transparent;
+    border-bottom: 2px solid #E73259;
 }
 
 window#waybar.hidden {
@@ -62,7 +63,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    color: #ffffff;
+    color: #E73259;
     /*background-color: #FFFFFF;*/
     /*box-shadow: inset 0 -3px #ffffff;*/
 }
@@ -94,9 +95,10 @@ button:hover {
 #mpd {
     padding: 5px 20px;
     margin: 5px 5px;
+    margin-bottom: 10px;
     /*min-width: 16px;*/
-    color: #ffffff;
-    background-color: #555C6B;
+    color: #1b1b1d;
+    background-color: #E73259;
 }
 
 #window,
@@ -152,7 +154,7 @@ label:focus {
 
 #cpu {
     /*background-color: #383E49;;*/
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 #memory {
@@ -177,12 +179,12 @@ label:focus {
 
 #pulseaudio {
     /*background-color: #f1c40f;*/
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
 }
 
 #pulseaudio.muted {
     /*background-color: #90b1b1;*/
-    color: #2a5c45;
+    /*color: #2a5c45;*/
 }
 
 #wireplumber {
@@ -276,7 +278,7 @@ label:focus {
 
 #keyboard-state label.locked {
     /*background: #97e1ad;*/
-    color: #ffffff;
+    /*color: #ffffff;*/
     min-width: 16px;
 }
 
